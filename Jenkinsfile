@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo "Hello, Jenkins!"'
                 sh '''
-                    echo "Multiline shell steps works too!"
+                    echo "Multiline shell steps works too, Jenkins!"
                     ls -lah
                 '''
             }
